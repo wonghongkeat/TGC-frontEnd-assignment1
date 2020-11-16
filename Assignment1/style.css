@@ -1,9 +1,6 @@
-/* nav{
-    background-color: red;
-    display: flex;
-    justify-content: space-around;
-} */
-
+body{
+    background-color: #161616 !important;
+}
 .header{
     display: flex;
     justify-content: space-around;
@@ -35,6 +32,37 @@
 }
 
 #alvin-picture{
+    display: flex;
+    justify-content: space-around;
     margin:20px;
 }
-    
+
+.contact{
+     background-color: #c02126;
+     font-family:'Stalinist One', cursive;
+    color: white;
+    justify-content: space-around;
+    height: 200px;
+    text-align: center;
+
+}
+#social-media{
+    /* display:flex; */
+    justify-content: space-around;
+    background-color: #c02126;
+}
+
+
+#instagram{
+    height: 5%;
+    width: 5%;
+    margin: 10px;
+    margin-left: 5px;
+
+}
+
+#facebook{
+    height: 7%;
+    width: 7%;
+    margin: 10px
+}
