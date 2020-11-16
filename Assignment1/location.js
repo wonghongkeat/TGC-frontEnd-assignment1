@@ -1,16 +1,19 @@
-let singapore = [ 1.29,103.85];
-let map = L.map('map').setView(singapore, 12); 
+let singapore = [1.29, 103.85];
+let map = L.map('map').setView(singapore, 12);
+let link = document.querySelector('#form');
 
 //markers
-let location1 = L.marker([1.3470481,103.8738599]);
+let location1 = L.marker([1.3470481, 103.8738599]);
 location1.addTo(map);
 location1.bindPopup(`<h2>Serangoon Sunhine Park<h2>
 <p>Classes available</p>
 <ul>
-<li>Tue 1600</li>
-</ul>`);
+<li>1600</li>
+</ul>
+<button id='book'>Book</button>
+`);
 
-let location2 = L.marker([1.3158251,103.8561832]);
+let location2 = L.marker([1.3158251, 103.8561832]);
 location2.addTo(map);
 location2.bindPopup(`<h2>Groundup SG<h2>
 <p>Classes available</p>

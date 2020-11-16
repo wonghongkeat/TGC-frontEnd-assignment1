@@ -1,10 +1,40 @@
-#nav-bar-header{
+/* nav{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+} */
+
+.header{
+    display: flex;
+    justify-content: space-around;
     border: 1px solid #C02126;
     background-color: #c02126;
     margin-bottom: 10px;
+    padding: 10px;
+}
+
+.nav-link{
+    color: white;
+    font-family:'Stalinist One', cursive;
+
 }
 
 #header{
+    font-family:'Stalinist One', cursive;
     color: white;
-    margin: 20px;
+}
+
+#carousel{
+    margin-bottom: 20px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.d-block{
+    height:75vh;
+}
+
+#alvin-picture{
+    margin:20px;
+}
     
