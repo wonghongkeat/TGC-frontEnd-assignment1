@@ -56,10 +56,11 @@ body{
 }
 
 #carousel{
-    
+    border-top: #C02126 solid 9px;
+    border-bottom: #C02126 solid 9px;
     margin-bottom: 20px;
-    margin-left:10px;
-    margin-right:10px;
+    /* margin-left:10px;
+    margin-right:10px; */
 }
 
 .d-block{
@@ -69,12 +70,20 @@ body{
 #alvin-picture{
     display: flex;
     justify-content: space-around;
-    margin:20px;
+    align-items: center;
+    margin-bottom:20px;
     color:black;
 
 }
+#alvin-desc{
+    /* margin:15px; */
+    width: 50vw;
+   
+}
 #picture {
+    border: #C02126 5px solid;
     border-radius: 5px;
+    width:35vw;
 }
 
 #alvin{
@@ -88,6 +97,7 @@ body{
     font-family:'Stalinist One', cursive;
     font-size: 20px;
 }
+
 
 #contactborder{
    border-top:4px solid white;

@@ -1,3 +1,12 @@
 #map {
     height: 80vh;
+    border-top: #C02126 10px solid;
+    border-bottom: #C02126 10px solid;
+}
+
+#form{
+    margin:20px;
+    text-align: center;
+    text-indent: right;
+    height: 50vh;
 }
