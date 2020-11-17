@@ -1,5 +1,10 @@
 body{
     background-color: #161616 !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 .header{
     display: flex;
@@ -38,10 +43,10 @@ body{
 }
 
 .contact{
-     background-color: #c02126;
-     font-family:'Stalinist One', cursive;
+   
+    background-color: #c02126;
+    font-family:'Stalinist One', cursive;
     color: white;
-    justify-content: space-around;
     height: 200px;
     text-align: center;
 
