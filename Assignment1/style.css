@@ -68,13 +68,16 @@ body{
 .d-block{
     height:75vh;
 }
-
+#alvinspace{
+  margin-bottom:150px;
+    margin-top:150px;
+}
 #alvin-picture{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom:20px;
     color:black;
+    margin-top: 20px;
 
 }
 #alvin-desc{
@@ -89,13 +92,14 @@ body{
 }
 
 #alvin{
-    text-decoration: underline;
+    text-decoration: underline #c02126;
     font-family:'Stalinist One', cursive;
     font-size: 20px;
+    text-align: center;
 }
 
 #competition{
-    text-decoration: underline;
+    text-decoration: underline #c02126;
     font-family:'Stalinist One', cursive;
     font-size: 20px;
 }
@@ -139,4 +143,9 @@ body{
     margin: 10px;
     border: #EDEDED 2px solid;
     border-radius: 3px;
+}
+
+#copyright{
+    font-size: 11px;
+    font-family: none;
 }
