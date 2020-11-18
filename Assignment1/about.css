@@ -1,12 +1,14 @@
-#about{
-    margin-left: 45px;
-    margin-right: 45px;
+#page2{
+    margin:45px;
+    justify-content:space-between;
 }
 
-#ninja{
+.ninja{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .aboutimg{
@@ -25,7 +27,7 @@
 }
 
 #ninjawarrior{
-    margin-left: 10px;
+    /* margin-left: 10px; */
     font-size: 20px;
    
 }
@@ -34,11 +36,17 @@
     text-decoration: underline #c02126;
     font-family:'Stalinist One', cursive;
     font-size: 25px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     font-size: 30px;
    
 }
 
 #words{
+    margin-left: 20px;
+    width: 50vw;
+}
+
+#words2{
+    margin-right: 20px;
     width: 50vw;
 }
