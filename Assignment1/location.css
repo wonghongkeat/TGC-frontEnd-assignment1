@@ -1,7 +1,12 @@
 #map {
     height: 80vh;
-    border-top: #C02126 10px solid;
-    border-bottom: #C02126 10px solid;
+    border: #C02126 solid 5px;
+    border-radius: 5px;
+    /* border-bottom: #C02126 solid 9px; */
+  margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left:45px;
+    margin-right:45px;
 }
 
 #form{

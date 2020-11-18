@@ -1,5 +1,5 @@
 body{
-    background-color: white !important;
+    background-color: #EDEDED !important;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -17,8 +17,8 @@ body{
 }
 
 #border{
-    border-top: 3px solid white;
-    border-bottom: 3px solid white;
+    border-top: 3px solid #EDEDED;
+    border-bottom: 3px solid #EDEDED;
     height: 50px;
     width: 100vw;
     padding: 10px;
@@ -31,13 +31,13 @@ body{
     font-family:'Stalinist One', cursive
 }
 .nav-link{
-    color:black;
+    color: #EDEDED;
 
 }
 
 #header{
     font-family:'Stalinist One', cursive;
-    color:black;
+    color:#EDEDED;
     padding-top:5px;
 
 }
@@ -56,11 +56,13 @@ body{
 }
 
 #carousel{
-    border-top: #C02126 solid 9px;
-    border-bottom: #C02126 solid 9px;
+    border: #C02126 solid 5px;
+    border-radius: 5px;
+    /* border-bottom: #C02126 solid 9px; */
     margin-bottom: 20px;
-    /* margin-left:10px;
-    margin-right:10px; */
+    margin-top: 20px;
+    margin-left:45px;
+    margin-right:45px;
 }
 
 .d-block{
@@ -100,15 +102,15 @@ body{
 
 
 #contactborder{
-   border-top:4px solid white;
-   border-bottom:4px solid white; 
+   border-top:4px solid #EDEDED;
+   border-bottom:4px solid #EDEDED; 
    width: 100vw;
 }
 .contact{
    
     background-color: #c02126;
     font-family:'Stalinist One', cursive;
-    color: black;
+    color: #EDEDED;
     height: 200px;
     text-align: center;
     display:flex;
@@ -124,19 +126,17 @@ body{
 
 
 #instagram{
-    height: 5%;
-    width: 5%;
-    margin: 10px;
-    margin-left: 5px;
-    border: white 3px solid;
-    border-radius: 20px;
+    height: 3%;
+    width: 3%;
+    border: #EDEDED 2px solid;
+    border-radius: 15px;
 
 }
 
 #facebook{
-    height: 5%;
-    width: 5%;
+    height: 3%;
+    width: 3%;
     margin: 10px;
-    border: white 2px solid;
-    border-radius: 5px;
+    border: #EDEDED 2px solid;
+    border-radius: 3px;
 }
