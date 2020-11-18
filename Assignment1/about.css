@@ -5,11 +5,40 @@
 
 #ninja{
     display: flex;
-    border: red 2px solid;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .aboutimg{
-     border: #C02126 5px solid;
-    border-radius: 5px;
     width:35vw;
+}
+
+#country{
+    width: 35vw;
+    display:flex;
+    justify-content: space-around;
+}
+
+.country{
+    width:10vw;  
+    height: 30%;
+}
+
+#ninjawarrior{
+    margin-left: 10px;
+    font-size: 20px;
+   
+}
+
+.title{
+    text-decoration: underline #c02126;
+    font-family:'Stalinist One', cursive;
+    font-size: 25px;
+    margin-left: 10px;
+    font-size: 30px;
+   
+}
+
+#words{
+    width: 50vw;
 }

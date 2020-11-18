@@ -83,6 +83,7 @@ body{
 #alvin-desc{
     /* margin:15px; */
     width: 50vw;
+    font-size: 20px;
    
 }
 #picture {
@@ -94,14 +95,14 @@ body{
 #alvin{
     text-decoration: underline #c02126;
     font-family:'Stalinist One', cursive;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
 }
 
 #competition{
     text-decoration: underline #c02126;
     font-family:'Stalinist One', cursive;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
