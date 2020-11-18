@@ -1,0 +1,15 @@
+#about{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+#ninja{
+    display: flex;
+    border: red 2px solid;
+}
+
+.aboutimg{
+     border: #C02126 5px solid;
+    border-radius: 5px;
+    width:35vw;
+}
