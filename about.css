@@ -9,8 +9,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-top: 150px;
 }
 
 .aboutimg{
@@ -70,3 +70,14 @@
     width: 50vw;
 }
 
+#certs{
+    display: flex;
+    justify-content: space-around;
+     margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+.certs{
+    border: #c02126 3px solid;
+    height: 50vh;
+}
