@@ -3,7 +3,8 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 
 }
 .header{
@@ -56,22 +57,37 @@ body{
 }
 
 #carousel{
-    border: #C02126 solid 5px;
-    border-radius: 5px;
-    /* border-bottom: #C02126 solid 9px; */
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left:45px;
-    margin-right:45px;
+    width: 80vw !important;
 }
 
-.d-block{
-    height:75vh;
+.carousel-inner{
+    background-image: center;
+    text-align: center;
+  
 }
-#alvinspace{
+.carousel-item{
+     display: inline-block;
+}
+
+.first-slide{
+     border: #C02126 solid 5px;
+     border-radius: 5px;
+}
+.second-slide{
+     border: #C02126 solid 5px;
+     border-radius: 5px;
+}
+
+.third-slide{
+     border: #C02126 solid 5px;
+     border-radius: 5px;
+}
+
+
+/* #alvinspace{
   margin-bottom:150px;
     margin-top:150px;
-}
+} */
 #alvin-picture{
     display: flex;
     justify-content: space-around;
@@ -105,24 +121,30 @@ body{
     font-size: 25px;
 }
 
-
-#contactborder{
-   border-top:4px solid #EDEDED;
-   border-bottom:4px solid #EDEDED; 
-   width: 100vw;
-}
 .contact{
-   
+    position: relative;
     background-color: #c02126;
-    font-family:'Stalinist One', cursive;
     color: #EDEDED;
-    height: 200px;
+    font-family:'Stalinist One', cursive;
     text-align: center;
-    display:flex;
-    align-items: center;
-
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+    
+    
 
 }
+#contactborder{
+    margin-top: 10px;
+    margin-bottom:10px;
+    border-top:5px solid #EDEDED;
+    border-bottom:5px solid #EDEDED;
+    background-color: #c02126;
+    height: 80%;
+    /* bottom: 100px; */
+}
+
 #social-media{
     /* display:flex; */
     justify-content: space-around;
