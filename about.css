@@ -3,6 +3,8 @@
     justify-content:space-between;
 }
 
+
+
 .ninja{
     display: flex;
     align-items: center;
@@ -13,6 +15,11 @@
 
 .aboutimg{
     width:35vw;
+ 
+}
+.aboutimg2{
+    width:35vw;
+ border: solid 3px #c02126;
 }
 
 #country{
@@ -20,10 +27,22 @@
     display:flex;
     justify-content: space-around;
 }
+#country2{
+    width: 35vw;
+    display:flex;
+    justify-content: space-between;
+}
 
 .country{
     width:10vw;  
-    height: 30%;
+    height: 20vh;
+    margin-top: 10px;
+}
+.country2{
+    width:10vw;  
+    height: 20vh;
+    margin-top: 10px;
+    border:  #c02126 3px solid;
 }
 
 #ninjawarrior{
@@ -50,3 +69,4 @@
     margin-right: 20px;
     width: 50vw;
 }
+

@@ -58,6 +58,8 @@ body{
 
 #carousel{
     width: 80vw !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .carousel-inner{
@@ -84,13 +86,15 @@ body{
 }
 
 
-/* #alvinspace{
+#alvinspace{
   margin-bottom:150px;
     margin-top:150px;
-} */
+    width:90vw;
+}
+
 #alvin-picture{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     color:black;
     margin-top: 20px;
@@ -148,21 +152,20 @@ body{
 #social-media{
     /* display:flex; */
     justify-content: space-around;
-    background-color: #c02126;
 }
 
 
 #instagram{
-    height: 3%;
-    width: 3%;
+    height: 3rem;
+    width: 3rem;
     border: #EDEDED 2px solid;
     border-radius: 15px;
 
 }
 
 #facebook{
-    height: 3%;
-    width: 3%;
+    height: 3rem;
+    width: 3rem;
     margin: 10px;
     border: #EDEDED 2px solid;
     border-radius: 3px;
