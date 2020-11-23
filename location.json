@@ -1,10 +1,20 @@
-[
-    {
-        "location": "Serangoon Sunshine park",
-        "Time": 1600
+{
+    "serangoon": {
+        "location": "serangoon sunshine park",
+        "lat": 1.3468672,
+        "long": 103.8719589,
+        "time": 1830
     },
-    {
-        "location": "Groundup SG",
-        "Time": 1600
+    "groundUP": {
+        "location": "groundup sg",
+        "lat": 1.3158251,
+        "long": 103.8561832,
+        "time": 1600
+    },
+    "boonKeng": {
+        "location": "boon keng",
+        "lat": 1.324810,
+        "long": 103.866323,
+        "time": 1900
     }
-]
+}

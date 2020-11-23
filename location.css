@@ -17,3 +17,19 @@
     justify-content:  space-between;
     height: 50vh;
 }
+
+#apply{
+    color: white;
+    font-family:'Stalinist One', cursive;
+    background-color: #C02126
+}
+
+#location{
+      font-family:'Stalinist One', cursive;
+      text-decoration: underline;
+      font-size: 25px;
+}
+
+.label{
+    font-size: 20px;
+}

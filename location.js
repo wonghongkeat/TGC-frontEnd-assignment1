@@ -1,3 +1,17 @@
+let input = document.querySelector('.input');
+
+let button = document.querySelector('#apply');
+button.addEventListener('click', function () {
+    if (input.value === "") {
+        alert('Please complete the form before submitting!')
+    } else {
+        alert("Class Successfully booked!")
+    }
+});
+
+
+
+// map  related +++++++++++++++++++++++++++++++++++
 let singapore = [1.29, 103.85];
 let map = L.map('map',
     {
@@ -20,10 +34,10 @@ location1.bindPopup(`<h2 id='location1'>Serangoon Sunshine Park<h2>
 
 location1.on("click", function (event) {
     document.querySelector("#book").addEventListener("click", function (event) {
-    location.href = "location.html?#form";
-    document.querySelector('#location').innerHTML = document.querySelector('#location1').innerHTML;
-    
-});
+        location.href = "location.html?#form";
+        document.querySelector('#location').innerHTML = document.querySelector('#location1').innerHTML;
+
+    });
 });
 
 
