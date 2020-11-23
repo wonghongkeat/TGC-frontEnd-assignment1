@@ -1,4 +1,7 @@
 let input = document.querySelector('.input');
+let name = document.querySelector('#name');
+let number = document.querySelector('#number');
+let email = document.querySelector('#email');
 
 let button = document.querySelector('#apply');
 button.addEventListener('click', function () {
