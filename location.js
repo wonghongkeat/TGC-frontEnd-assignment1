@@ -1,11 +1,14 @@
 async function locationData() {
     let response = await axios.get('location.json');
-    console.log(response.data);
-}
+    let response2 = response.data;
+    let loca = response2
+    for (let l in loca) {
+        let locationMarker = L.marker([loca[l]["lat"], loca[l]["long"]])
+        locationMarker.addTo(map);
+    }
+
+};
 locationData();
-
-
-
 
 // ++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -37,32 +40,32 @@ let map = L.map('map',
 let link = document.querySelector('#form');
 
 //markers
-let location1 = L.marker([1.3470481, 103.8738599]);
-location1.addTo(map);
-location1.bindPopup(`<h2 id='location1'>Serangoon Sunshine Park<h2>
-<p>Classes available</p>
-<ul>
-<li>1600</li>
-</ul>
-<button id='book'>Book</button>
-`);
+// let location1 = L.marker([1.3470481, 103.8738599]);
+// location1.addTo(map);
+// location1.bindPopup(`<h2 id='location1'>Serangoon Sunshine Park<h2>
+// <p>Classes available</p>
+// <ul>
+// <li>1600</li>
+// </ul>
+// <button id='book'>Book</button>
+// `);
 
-location1.on("click", function (event) {
-    document.querySelector("#book").addEventListener("click", function (event) {
-        location.href = "location.html?#form";
-        document.querySelector('#location').innerHTML = document.querySelector('#location1').innerHTML;
+// location1.on("click", function (event) {
+//     document.querySelector("#book").addEventListener("click", function (event) {
+//         location.href = "location.html?#form";
+//         document.querySelector('#location').innerHTML = document.querySelector('#location1').innerHTML;
 
-    });
-});
+//     });
+// });
 
 
-let location2 = L.marker([1.3158251, 103.8561832]);
-location2.addTo(map);
-location2.bindPopup(`<h2>Groundup SG<h2>
-<p>Classes available</p>
-<ul>
-    <li>Tue 1600</li>
-</ul>`);
+// let location2 = L.marker([1.3158251, 103.8561832]);
+// location2.addTo(map);
+// location2.bindPopup(`<h2>Groundup SG<h2>
+// <p>Classes available</p>
+// <ul>
+//     <li>Tue 1600</li>
+// </ul>`);
 
 // setup the tile layers
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
