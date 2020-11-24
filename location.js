@@ -5,7 +5,20 @@ async function locationData() {
     for (let l in loca) {
         let locationMarker = L.marker([loca[l]["lat"], loca[l]["long"]])
         locationMarker.addTo(map);
+        locationMarker.bindPopup(`<h5> ${loca[l]["location"]}</h5>
+        <p style="font-size: 15px"> Class Timing </p>
+        <ul> 
+        <li style="font-size: 15px">
+        ${loca[l]["time"]} 
+        </li>
+        </ul>
+        <button id='book'>Book</button>
+        `)
     }
+    // for (let x in loca) {
+    //     let popup = .bindPopup(`<h2> ${loca[x]["location"]}`)
+
+    // }
 
 };
 locationData();
@@ -13,6 +26,8 @@ locationData();
 // ++++++++++++++++++++++++++++++++++++++++++++++
 
 
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++
 let input = document.querySelector('.input');
 let name = document.querySelector('#name');
 let number = document.querySelector('#number');
@@ -67,7 +82,7 @@ let link = document.querySelector('#form');
 //     <li>Tue 1600</li>
 // </ul>`);
 
-// setup the tile layers
+// setup the tile layers++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
