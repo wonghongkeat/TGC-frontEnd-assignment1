@@ -5,7 +5,7 @@ async function locationData() {
     for (let l in loca) {
         let locationMarker = L.marker([loca[l]["lat"], loca[l]["long"]])
         locationMarker.addTo(map);
-        locationMarker.bindPopup(`<h5> ${loca[l]["location"]}</h5>
+        locationMarker.bindPopup(`<h5 id='${l}'> ${loca[l]["location"]}</h5>
         <p style="font-size: 15px"> Class Timing </p>
         <ul> 
         <li style="font-size: 15px">
@@ -14,12 +14,14 @@ async function locationData() {
         </ul>
         <button id='book'>Book</button>
         `)
+        locationMarker.on("click", function (event) {
+            document.querySelector("#book").addEventListener("click", function (event) {
+                location.href = "location.html?#form";
+                document.querySelector('#location').innerHTML = loca[l]["location"]
+
+            });
+        });
     }
-    // for (let x in loca) {
-    //     let popup = .bindPopup(`<h2> ${loca[x]["location"]}`)
-
-    // }
-
 };
 locationData();
 
