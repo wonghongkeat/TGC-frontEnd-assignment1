@@ -1,3 +1,15 @@
+async function locationData() {
+    let response = await axios.get('location.json');
+    console.log(response.data);
+}
+locationData();
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++
+
+
 let input = document.querySelector('.input');
 let name = document.querySelector('#name');
 let number = document.querySelector('#number');
