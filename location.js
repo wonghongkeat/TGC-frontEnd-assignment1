@@ -5,24 +5,29 @@ async function locationData() {
     for (let l in loca) {
         let locationMarker = L.marker([loca[l]["lat"], loca[l]["long"]])
         locationMarker.addTo(map);
-        locationMarker.bindPopup(`<h5 id='${l}'> ${loca[l]["location"]}</h5>
+        locationMarker.bindPopup(`<h5> ${loca[l]["location"]}</h5>
         <p style="font-size: 15px"> Class Timing </p>
         <ul> 
         <li style="font-size: 15px">
         ${loca[l]["time"]} 
         </li>
         </ul>
-        <button id='book'>Book</button>
+        <button><a href="#location">Book</a></button>
         `)
-        locationMarker.on("click", function (event) {
-            document.querySelector("#book").addEventListener("click", function (event) {
-                location.href = "location.html?#form";
-                document.querySelector('#location').innerHTML = loca[l]["location"]
-
-            });
-        });
-    }
+        // let button = document.querySelector('#book');
+        // button.addEventListener("click", function () {
+        //     alert('hello')
+        // location.href = document.querySelector('#location');
+        // document.querySelector('#location').innerHTML = document.querySelector('h5').innerHTML
+        // });
+        // locationMarker.on("click", function (event) {
+        //     document.querySelector("#book").addEventListener("click", function (event) {
+        //         location.href = "location.html?#form";
+        //         document.querySelector('#location').innerHTML = document.querySelector('h5').innerHTML
+        //     });
+    };
 };
+
 locationData();
 
 // ++++++++++++++++++++++++++++++++++++++++++++++
