@@ -49,10 +49,8 @@
 
 body{
     background-color: #EDEDED !important;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
 
 }
@@ -227,3 +225,5 @@ body{
     font-size: 11px;
     font-family: none;
 }
+
+
