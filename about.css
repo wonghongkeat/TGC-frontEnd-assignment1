@@ -118,6 +118,17 @@
     border:  #c02126 3px solid;
 }
 
+#popup{
+    display: none;
+}
+
+.country2:hover {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background-position: center;
+}
+
 #ninjawarrior{
     /* margin-left: 10px; */
     font-size: 20px;
@@ -148,6 +159,7 @@
     justify-content: space-around;
     margin-bottom: 150px;
     margin-top: 150px;
+    width: 80vw;
 }
 
 .certs{
