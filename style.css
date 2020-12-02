@@ -31,13 +31,16 @@
     }
     #menu{
         display:inline !important;
+        width: 50px;
+        height: 30px;
     }
     .menu{
-     width:25px;
-     height: 3px;
-     background-color:#EDEDED;
-     margin: 5px;
-     display:none;
+     width:25px !important;
+     height: 3px !important;
+     background-color:#EDEDED !important;
+     margin: 5px !important;
+     display: block !important;
+
     }
         
     #alvin-picture{
@@ -62,7 +65,13 @@
 #menu{
     display:none ;
 }
-
+.menu{
+     width:25px;
+     height: 3px;
+     background-color:#EDEDED;
+     margin: 5px;
+     display:none;
+    }
 body{
     background-color: #EDEDED !important;
     display: flex;
