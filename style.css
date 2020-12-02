@@ -30,13 +30,14 @@
         position: absolute;
         width: 100vw;
         margin-top:2px;
-        background-color: #c02126;
+        background-color:rgba(192,33,38,0.8);
         left:0;
         top: 90px;
         z-index: 1;
         transition: all 0.4s
 
     }
+
 
     #navlinkheader2{
         display:block !important;
@@ -65,19 +66,22 @@
         position: absolute;
         width: 100vw;
         margin-top:2px;
-        background-color: #c02126;
+        background-color:rgba(192,33,38,0.8);
         left: 0;
         top: 90px;
         z-index: 1;
 
     }
 
+.nav-link-2{
+    margin: 15px;
+}
+
     #header{
     background-color: #c02126;
     margin-top: 20px;
     margin-bottom: 20px;
     height: 38px;
-
     }
     #nav-link{
         display:none !important;
@@ -174,6 +178,10 @@ body{
 
 .nav-link2{
     display:none;
+}
+
+.nav-link-2{
+    color:#EDEDED;
 }
 
 #header{
