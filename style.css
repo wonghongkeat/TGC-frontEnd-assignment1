@@ -1,5 +1,5 @@
 @media screen and (max-width: 480px){
-    #nav-link{
+    /* #nav-link{
     display:flex;
      flex-direction: column;
      position: absolute;
@@ -8,7 +8,7 @@
      background-color: #c02126;
      right: 0%;
      top: 90px;
-    }
+    } */
 
     #carousel{
     width: 80vw !important;
@@ -16,7 +16,7 @@
     margin-bottom: 5vh !important;
 }
 }
-@media screen and (max-width: 650px){
+@media screen and (max-width: 670px){
     #header{
         display:none;
     }
@@ -24,12 +24,23 @@
     width: 80vw !important;
     margin-top: 20px;
     margin-bottom: 5vh !important;
-}
+    }
 
 }
 
 
 @media screen and (max-width: 1130px){
+    .menubutton:hover + .nav-link2{
+        display: block !important;
+        flex-direction: column;
+        position: absolute;
+        width: 50%;
+        height: 100vh;
+        background-color: #c02126;
+        right: 0%;
+        top: 90px;
+    }
+
     #header{
     background-color: #c02126;
     margin-top: 20px;
@@ -40,7 +51,7 @@
     #nav-link{
         display:none !important;
     }
-    #menu{
+    .menubutton{
         display:inline !important;
         width: 50px;
         height: 30px;
@@ -51,8 +62,8 @@
      background-color:#EDEDED !important;
      margin: 5px !important;
      display: block !important;
-
     }
+
         
     #alvin-picture{
     flex-direction: column;
@@ -69,17 +80,17 @@
         width:80% !important;
     }
 
-      #carousel{
+    #carousel{
     width: 80vw !important;
     margin-top: 20px;
     margin-bottom: 5vh !important;
 }
-
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-#menu{
+
+.menubutton{
     display:none ;
 }
 .menu{
@@ -89,6 +100,7 @@
      margin: 5px;
      display:none;
     }
+
 body{
     background-color: #EDEDED !important;
     display: flex;
@@ -125,7 +137,10 @@ body{
 }
 .nav-link{
     color: #EDEDED;
+}
 
+.nav-link2{
+    display:none;
 }
 
 #header{
