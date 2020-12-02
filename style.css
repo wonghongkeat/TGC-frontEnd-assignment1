@@ -127,7 +127,7 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+/* 
 .carousel-inner{
     background-image: center;
     text-align: center;
@@ -149,6 +149,12 @@ body{
 .third-slide{
      border: #C02126 solid 5px;
      border-radius: 5px;
+} */
+
+.carousel-item{
+    border: #C02126 solid 5px;
+    border-radius: 5px;
+    width: 100% !important;
 }
 
 
