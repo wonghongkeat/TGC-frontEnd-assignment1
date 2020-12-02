@@ -14,6 +14,8 @@
 		crossorigin="" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 	<title>SG Ninja Warrior</title>
 </head>
 
@@ -39,30 +41,31 @@
 
 	<!-- map -->
 	<div id="map"></div>
-
-	<!-- application form -->
-	<form id='form'>
-		<div id='location'>
-			<h2>location</h2>
+	<div id='apply-form'>
+		<!-- application form -->
+		<form id='form'>
+			<div id='location'>
+				<h2>location</h2>
+			</div>
+			<div>
+				<div id='details'>
+					<label class='label'>Please enter your name </label>
+					<input id='name' type='text' class='input'>
 		</div>
-		<div>
-			<div id='details'>
-				<label class='label'>Please enter your name </label>
-				<input id='name' type='text' class='input'>
+					<div id='number'>
+						<label class='label'>Please enter your phone number </label>
+						<input id='number' type='text' class='input'>
 		</div>
-				<div id='number'>
-					<label class='label'>Please enter your phone number </label>
-					<input id='number' type='text' class='input'>
+						<div id='email'>
+							<label class='label'>Please enter your email </label>
+							<input id='email' type='text'class='input'>
 		</div>
-					<div id='email'>
-						<label class='label'>Please enter your email </label>
-						<input id='email' type='text'class='input'>
-		</div>
-					</div>
-					<div id='button'>
-						<button id='apply'>Apply</button>
-					</div>
-	</form>
+						</div>
+						<div id='button'>
+							<button id='apply'>Apply</button>
+						</div>
+		</form>
+	</div>
 
 	<!-- contact section, will be same throughtout all pages -->
 
@@ -92,10 +95,13 @@
 	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
 		integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
 		crossorigin=""></script>
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	</script> -->
+	<script src="location.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 	</script>
-	<script src="location.js"></script>
 </body>
 
 </html>

@@ -76,8 +76,15 @@
     align-items: center;
     justify-content:  space-between;
     height: 50vh;
+    margin-bottom: 20px;
 }
-
+#apply-form{
+    height: 70vh;
+}
+.input{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
 #apply{
     color: white;
     font-family:'Stalinist One', cursive;
