@@ -38,8 +38,8 @@
 
     }
 
-    #nav-link-header{
-        display:block;
+    #navlinkheader2{
+        display:block !important;
         font-family:'Stalinist One', cursive;
         color: #EDEDED;
         font-size: 2rem;
@@ -166,6 +166,10 @@ body{
 }
 .nav-link{
     color: #EDEDED;
+}
+
+#navlinkheader2{
+    display:none;
 }
 
 .nav-link2{
