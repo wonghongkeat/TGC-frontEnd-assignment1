@@ -1,21 +1,3 @@
-/* @media screen and (max-width: 480px){
-    #nav-link{
-    display:flex;
-     flex-direction: column;
-     position: absolute;
-     width: 50%;
-     height: 100vh;
-     background-color: #c02126;
-     right: 0%;
-     top: 90px;
-    }
-
-    #carousel{
-    width: 80vw !important;
-    margin-top: 20px;
-    margin-bottom: 5vh !important;
-}
-} */
 
 @media screen and (max-width: 700px){
 
@@ -35,8 +17,8 @@
     display: block;
 } */
 .nav-link2{
-    width: 50vw !important;
-    height: 100% !important;
+    width: 100vw !important;
+    height: 10vh !important;
     right: 0;
 }
 
@@ -169,7 +151,7 @@ body{
     height: 50px;
     word-spacing:20px;
     padding:15px;
-    z-index: 1;
+    z-index: 2;
     text-align: center;
     right: 0;
     display: none;
@@ -218,7 +200,7 @@ body{
     height:100px;
     width: 100px;
     margin-right:15px;
-    z-index:2;
+    z-index:3;
     
 }
 
@@ -231,29 +213,6 @@ body{
 .img-fluid{
     width: 100% !important;
 }
-/* 
-.carousel-inner{
-    background-image: center;
-    text-align: center;
-  
-}
-.carousel-item{
-     display: inline-block;
-}
-
-.first-slide{
-     border: #C02126 solid 5px;
-     border-radius: 5px;
-}
-.second-slide{
-     border: #C02126 solid 5px;
-     border-radius: 5px;
-}
-
-.third-slide{
-     border: #C02126 solid 5px;
-     border-radius: 5px;
-} */
 
 .carousel-item{
     border: #C02126 solid 5px;
@@ -268,7 +227,6 @@ body{
     align-items: center;
     color:black;
     margin-bottom:150px;
-    /* margin-top:150px; */
     width:90vw;
 
 }
