@@ -27,7 +27,7 @@ locationData();
 // ++++++++++++++++++++++++++++++++++++++++++++++
 
 let newMarker = L.icon({
-    iconUrl: '/image/marker.png',
+    iconUrl: "image/marker.png",
 
     iconSize:     [30, 65], 
 });
