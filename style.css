@@ -203,7 +203,7 @@ body {
 	font-size: 25px;
 }
 .contact {
-	position: relative;
+	position: static;
 	background-color: #c02126;
 	color: #EDEDED;
 	font-family: 'Stalinist One', cursive;
