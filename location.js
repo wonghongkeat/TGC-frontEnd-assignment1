@@ -3,7 +3,7 @@ async function locationData() {
     let response2 = response.data;
     let loca = response2
     for (let l in loca) {
-        let locationMarker = L.marker([loca[l]["lat"], loca[l]["long"]])
+        let locationMarker = L.marker([loca[l]["lat"], loca[l]["long"]], {icon:newMarker})
         locationMarker.addTo(map);
         locationMarker.bindPopup(`<h5 class='location'> ${loca[l]["location"]}</h5>
         <p style="font-size: 15px"> Class Timing </p>
@@ -18,11 +18,6 @@ async function locationData() {
         document.querySelector(`#book${l}`).addEventListener("click", function () {
             document.querySelector('#location').innerHTML = loca[l]["location"]
         });
-        // locationMarker.on("click", function (event) {
-        //     document.querySelector("#book").addEventListener("click", function (event) {
-        //         location.href = "location.html?#form";
-        //         document.querySelector('#location').innerHTML = document.querySelector('h5').innerHTML
-        //     });
     });
     }
 };
@@ -31,7 +26,11 @@ locationData();
 
 // ++++++++++++++++++++++++++++++++++++++++++++++
 
+let newMarker = L.icon({
+    iconUrl: '/image/marker.png',
 
+    iconSize:     [30, 65], 
+});
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++
 let input = document.querySelector('.input');
@@ -51,14 +50,15 @@ button.addEventListener('click', function () {
 
 
 // map  related +++++++++++++++++++++++++++++++++++
-let singapore = [1.29, 103.85];
+let singapore = [1.3442,103.8125243];
 let map = L.map('map',
     {
         scrollWheelZoom: false,
-        // dragging: false,
         trackResize: false
     }).setView(singapore, 12);
 let link = document.querySelector('#form');
+
+
 
 // setup the tile layers++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -67,5 +67,5 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     id: 'mapbox/streets-v11',
     tileSize: 512,
     zoomOffset: -1,
-    accessToken: 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw'
+    accessToken: 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw' //demo access token
 }).addTo(map);

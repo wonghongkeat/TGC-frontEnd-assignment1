@@ -180,6 +180,7 @@ body {
 }
 #alvin3 {
 	width: 50vw;
+    text-align:center;
 }
 #alvin-desc {
 	margin: 15px;
@@ -191,6 +192,7 @@ body {
 	border-radius: 5px;
 	margin: 15px;
 	width: 80%;
+    text-align:center;
 }
 #alvin {
 	text-decoration: underline #c02126;
