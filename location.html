@@ -3,19 +3,14 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/png" href="image/favicon.png" />
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="image/favicon.png" rel="icon" type="image/png">
 	<link href='style.css' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="location.css" type='text/css'>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="location.css" rel="stylesheet" type='text/css'>
+	<link href="https://fonts.gstatic.com" rel="preconnect">
 	<link href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-		integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-		crossorigin="" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+	<link href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 	<title>SG Ninja Warrior</title>
 </head>
 
@@ -26,93 +21,72 @@
 		<div class='header'>
 			<div id='border'>
 				<div id='logo'>
-					<img src='image/Picture2.png' alt='ninjasg'id='logopicture'/>
+					<img alt='ninjasg' id='logopicture' src='image/Picture2.png'>
 					<h2 id='header'>SG Ninja Warrior</h2>
 				</div>
 				<div id='nav-link'>
-					<a href='index.html' class='nav-link' id='home'>Home</a>
-					<a href='about.html' class='nav-link' id='about'>About</a>
-					<a href='location.html' class='nav-link' id='booking'>Booking</a>
-					<a href='#social-media' class='nav-link' id='contact'>Contact</a>
+					<a class='nav-link' href='index.html' id='home'>Home</a> <a class='nav-link' href='about.html'
+						id='about'>About</a> <a class='nav-link' href='location.html' id='booking'>Booking</a> <a
+						class='nav-link' href='#social-media' id='contact'>Contact</a>
 				</div>
 				<div class='drop-down'>
 					<button class="drop-btn" onclick="menuButton()">Menu</button>
-
 					<div class='nav-link2'>
-						<h2 id='navlinkheader2'>SG Ninja Warrior</h2>
-						<a href='index.html' class='nav-link-2' id='home'>Home</a>
-						<a href='about.html' class='nav-link-2' id='about'>About</a>
-						<a href='location.html' class='nav-link-2' id='booking'>Booking</a>
-						<a href='#social-media' class='nav-link-2' id='contact'>Contact</a>
+						<h2 id='navlinkheader2'>SG Ninja Warrior</h2><a class='nav-link-2' href='index.html'
+							id='home'>Home</a> <a class='nav-link-2' href='about.html' id='about'>About</a> <a
+							class='nav-link-2' href='location.html' id='booking'>Booking</a> <a class='nav-link-2'
+							href='#social-media' id='contact'>Contact</a>
 					</div>
 				</div>
 			</div>
 		</div>
-	</nav>
-
-	<!-- map -->
+	</nav><!-- map -->
 	<div id="map"></div>
 	<div id='apply-form'>
 		<!-- application form -->
-		<form id='form'>
+		<form id='form' name="form">
 			<div id='location'>
 				<h2>location</h2>
 			</div>
 			<div>
 				<div id='details'>
-					<label class='label'>Please enter your name </label>
-					<input id='name' type='text' class='input'>
-		</div>
+					<label class='label'>Please enter your name</label> <input class='input' id='name' type='text'>
+				</div>
 					<div id='number'>
-						<label class='label'>Please enter your phone number </label>
-						<input id='number' type='text' class='input'>
-		</div>
+						<label class='label'>Please enter your phone number</label> <input class='input' id='number' type='text'>
+				</div>
 						<div id='email'>
-							<label class='label'>Please enter your email </label>
-							<input id='email' type='text'class='input'>
-		</div>
+							<label class='label'>Please enter your email</label> <input class='input' id='email' type='text'>
+				</div>
 						</div>
 						<div id='button'>
 							<button id='apply'>Apply</button>
 						</div>
 		</form>
-	</div>
-
-	<!-- contact section, will be same throughtout all pages -->
-
+	</div><!-- contact section, will be same throughtout all pages -->
 	<div class='contact'>
 		<div id='contactborder'>
 			<div id='social-media'>
-				<a href='https://www.instagram.com/alvintan.ck/?hl=en'>
-					<img src='image/instagram.png' alt='instagram icon' id='instagram'/>
-                    </a>
-					<a href='https://www.facebook.com/'>
-						<img src='image/facebook.png' alt='facebook icon' id='facebook'/>
-                        </a>
-
-
+				<a href='https://www.instagram.com/alvintan.ck/?hl=en'><img alt='instagram icon' id='instagram' src='image/instagram.png'></a>
+					<a href='https://www.facebook.com/'><img alt='facebook icon' id='facebook' src='image/facebook.png'></a>
 			</div>
 			<div>
 				<h2 id='contact-us'>Contact him now!</h2>
-				<p id='copyright'><br>All materials on this site are solely for project
-									purpose.<br>Content will not be approve for use for other matters.</p>
+				<p id='copyright'><br>
+				All materials on this site are solely for project purpose.<br>
+				Content will not be approve for use for other matters.</p>
 			</div>
 		</div>
 	</div>
-
-
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
-	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-		integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-		crossorigin=""></script>
-	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-	</script> -->
-	<script src="script.js"></script>
-	<script src="location.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js">
+	</script>
+	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js">
+	</script>
+	<script src="script.js">
+	</script>
+	<script src="location.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
 	</script>
 </body>
 
