@@ -33,6 +33,15 @@
 		background-color: #EDEDED
 	}
 }
+
+@media screen and (max-height: 700px){
+    .country {
+		display: none !important;
+	}
+	.country2 {
+		display: none !important;
+	}
+}
 @media screen and (max-width: 700px) {
 	.country {
 		display: none !important;
@@ -87,6 +96,7 @@
 }
 .country-2 {
 	height: 100%;
+    width: 25%;
 	margin-top: 10px;
 	border: #c02126 3px solid;
 }
