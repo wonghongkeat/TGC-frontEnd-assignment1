@@ -1,16 +1,14 @@
-@media screen and (max-width: 494px) {
+@media screen and (max-width: 520px) {
 	.nav-link2 {
+		width: 100vw !important;
 		height: 5vh !important;
+		right: 0;
 	}
 }
+
 @media screen and (max-width: 700px) {
 	#header {
 		display: none!important;
-	}
-	.nav-link2 {
-		width: 100vw !important;
-		height: 10vh !important;
-		right: 0;
 	}
 	#carousel {
 		width: 80vw !important;
