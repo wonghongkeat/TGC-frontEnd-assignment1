@@ -17,37 +17,28 @@
 }
 } */
 
-@media screen and (max-width: 670px){
-    #header{
-        display:none !important;
-    }
+@media screen and (max-width: 700px){
 
-  .menubutton:hover + .nav-link2{
-        font-family:'Stalinist One', cursive;
-        display: flex !important;
+#header{
+    display: none!important;
+}
+  /* .menubutton:hover + .nav-link2{
         flex-direction: column;
         text-align: center;
-        position: absolute;
-        width: 100vw;
-        margin-top:2px;
-        background-color:rgba(192,33,38,0.8);
-        left:0;
-        top: 90px;
-        z-index: 1;
-        transition: all 0.4s
-
-    }
-
-
-    #navlinkheader2{
-        display:block !important;
-        font-family:'Stalinist One', cursive;
-        color: #EDEDED;
-        font-size: 2rem;
-        margin:0;
-        margin-top:5px;
-
-    }
+   
+    } */
+/* .menubutton:hover .nav-link-2 {
+    background-color:black;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    display: block;
+} */
+.nav-link2{
+    width: 50vw !important;
+    height: 100% !important;
+    right: 0;
+}
 
     #carousel{
     width: 80vw !important;
@@ -59,23 +50,23 @@
 
 
 @media screen and (max-width: 1130px){
-    .menubutton:hover + .nav-link2{
-        font-family:'Stalinist One', cursive;
+    /* .menubutton:hover + .nav-link2{
         display: flex !important;
-        justify-content: space-around !important;
-        position: absolute;
-        width: 100vw;
-        margin-top:2px;
-        background-color:rgba(192,33,38,0.8);
-        left: 0;
-        top: 90px;
-        z-index: 1;
+        right: 0 !important;
+    } */
 
-    }
-
-.nav-link-2{
-    margin: 15px;
+   .drop-down {
+    display: block!important;
 }
+
+    .drop-btn:hover{
+        outline: black 2px solid;
+        border: 0;
+    }
+    
+    .drop-btn{
+        display: block !important;
+    }   
 
     #header{
     background-color: #c02126;
@@ -85,18 +76,6 @@
     }
     #nav-link{
         display:none !important;
-    }
-    .menubutton{
-        display:inline !important;
-        width: 50px;
-        height: 30px;
-    }
-    .menu{
-     width:25px !important;
-     height: 3px !important;
-     background-color:#EDEDED !important;
-     margin: 5px !important;
-     display: block !important;
     }
 
         
@@ -174,14 +153,52 @@ body{
 
 #navlinkheader2{
     display:none;
+    font-family:'Stalinist One', cursive;
+    color: #EDEDED;
+    font-size: 2rem;
+    margin:0;
+    margin-top:5px;
 }
 
 .nav-link2{
-    display:none;
+    font-family:'Stalinist One', cursive;
+    position: absolute;
+    width: 100vw;
+    background-color:rgba(192,33,38,0.8);
+    top: 90px;
+    height: 50px;
+    word-spacing:20px;
+    padding:15px;
+    z-index: 1;
+    text-align: center;
+    right: 0;
+    display: none;
+}
+
+.hover{
+    position: absolute;
+    right:0;
+    width: 25vw;
+    height:100px;
+    top: 50px;
 }
 
 .nav-link-2{
     color:#EDEDED;
+}
+
+.drop-down {
+    display:none;
+}
+
+.drop-btn{
+ font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  font-family:'Stalinist One', cursive;
 }
 
 #header{
