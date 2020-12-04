@@ -120,13 +120,7 @@ body {
 	right: 0;
 	display: none;
 }
-.hover {
-	position: absolute;
-	right: 0;
-	width: 25vw;
-	height: 100px;
-	top: 50px;
-}
+
 .nav-link-2 {
 	color: #EDEDED;
 }
@@ -141,6 +135,7 @@ body {
 	background-color: inherit;
 	font-family: inherit;
 	font-family: 'Stalinist One', cursive;
+    cursor: pointer;
 }
 #header {
 	font-family: 'Stalinist One', cursive;
