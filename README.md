@@ -4,6 +4,8 @@ OBJECTIVE
 In Assignment 1, we will be tasked to create a website with interactive elements (implemented
 with JavaScript), while also demonstrating understanding of the Five Planes of UI/UX.
 
+![alt text](image/responsive.png)
+
 The five Planes of UI/UX will be based on:
 
 * Strategy
@@ -11,8 +13,6 @@ The five Planes of UI/UX will be based on:
 * Structure
 * Skeleton
 * Surface
-
-![alt text](image/responsive.png)
 
 # Strategy
 Primarily a website to target fitness and people who are interested in the sport. Will also use as a platform to promote the sport in Singapore and to gain awareness.
@@ -199,4 +199,4 @@ Mr Paul Chor
 Mr Shun Ng
 * TA of the course.
 
-Batchmates of Trent global College: Diploma in Software Development.
+Batchmates of Trent global College: Diploma in Software Developmen, batch 9.
