@@ -3,7 +3,7 @@ async function locationData() {
     let response2 = response.data;
     let loca = response2
     for (let l in loca) {
-        let locationMarker = L.marker([loca[l]["lat"], loca[l]["long"]], {icon:newMarker})
+        let locationMarker = L.marker([loca[l]["lat"], loca[l]["long"]], { icon: newMarker })
         locationMarker.addTo(map);
         locationMarker.bindPopup(`<h5 class='location'> ${loca[l]["location"]}</h5>
         <p style="font-size: 15px"> Class Timing </p>
@@ -15,10 +15,10 @@ async function locationData() {
         <button id="book${l}"><a href="#location">Book</a></button>
         `)
         locationMarker.on("click", function () {
-        document.querySelector(`#book${l}`).addEventListener("click", function () {
-            document.querySelector('#location').innerHTML = loca[l]["location"]
+            document.querySelector(`#book${l}`).addEventListener("click", function () {
+                document.querySelector('#location').innerHTML = loca[l]["location"]
+            });
         });
-    });
     }
 };
 
@@ -28,8 +28,7 @@ locationData();
 
 let newMarker = L.icon({
     iconUrl: "image/marker.png",
-
-    iconSize:     [30, 65], 
+    iconSize: [30, 65],
 });
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -50,7 +49,7 @@ button.addEventListener('click', function () {
 
 
 // map  related +++++++++++++++++++++++++++++++++++
-let singapore = [1.3442,103.8125243];
+let singapore = [1.3442, 103.8125243];
 let map = L.map('map',
     {
         scrollWheelZoom: false,
