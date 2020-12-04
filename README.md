@@ -124,7 +124,7 @@ Footer will include the links to the coach social media pages.
 
 ## Navigation design
 
-### NAvbar
+### Navbar
 * The Logo will be original image from the coach and will be place beside the website header. 
 * The Navbar will be made with CSS Flexbox.
 * The Navbar will be mobile responsive and the hyperlink tabs will be minimised in to a 'Menu' button for smaller screen size. 
@@ -184,18 +184,18 @@ The following list of technologies were use to construct the website:
 
 # Credits
 
-## image 
+## Image 
 All photos from the website are contributed from the coach himself. 
 All pictures and logos from the website are searched and sourced from google image.
 
-## content
+## Content
 All Content and information on the website are contributed by the coach himself.
 
 ## Guidance 
 Mr Paul Chor 
 * Mentor of the course. 
 
-Mr Shun
+Mr Shun Ng
 * TA of the course.
 
-Batchmates of Trent global College: Diploma in Software Development
+Batchmates of Trent global College: Diploma in Software Development.
