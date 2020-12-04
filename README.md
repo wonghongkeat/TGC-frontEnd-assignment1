@@ -12,6 +12,8 @@ The five Planes of UI/UX will be based on:
 * Skeleton
 * Surface
 
+![alt text](image/responsive.png)
+
 # Strategy
 Primarily a website to target fitness and people who are interested in the sport. Will also use as a platform to promote the sport in Singapore and to gain awareness.
 Allowing user to have a chance to experience the obstacles and the training process.
