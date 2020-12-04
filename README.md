@@ -110,6 +110,9 @@ The main hyperlinks will be located on the nav bar and there will be social medi
 # Skeleton
 The skeleton of the page will be straight forward and simple.
 
+![alt text](image/wireframe-1.png)
+
+
 Each page will consists of this three main components:
 * Navbar
 * Body/Content
