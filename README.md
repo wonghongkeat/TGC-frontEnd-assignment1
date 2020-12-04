@@ -185,9 +185,9 @@ The following list of technologies were use to construct the website:
 # Credits
 
 ## Image 
-All photos from the website are contributed from the coach himself. 
+All photos from the website were contributed from the coach himself. 
 
-All pictures and logos from the website are searched and sourced from google image.
+All pictures and logos from the website were searched and sourced from google image.
 
 ## Content
 All Content and information on the website are contributed by the coach himself.
