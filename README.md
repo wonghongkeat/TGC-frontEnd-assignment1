@@ -139,7 +139,7 @@ Footer will include the links to the coach social media pages.
 
 # Surface (Design Interface)
 
-## color
+## Color
 After doing research and visiting severals similiar websites. The theme for the site has been decided:
 * Red 
 * Black 
@@ -147,7 +147,7 @@ After doing research and visiting severals similiar websites. The theme for the 
 
 The considerations for the colors comes from the logo of the sport and to create a striking and impactful impression to the user.
 
-## fonts
+## Fonts
 Font chosen for the website is: [Stalinist One](https://fonts.google.com/specimen/Stalinist+One)
 
 Although it is an unconventional font to use but after some consideration, I think the font dicpicts nicely the spirit of a Ninja and the advanturer spirit in the sport. 
