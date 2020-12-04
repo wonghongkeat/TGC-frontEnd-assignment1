@@ -34,16 +34,6 @@
 	}
 }
 
-/* @media screen and (max-height: 700px){
-    .country {
-		display: none !important;
-	}
-	.country2{
-       display: none !important; 
-    }
-
-} */
-
 @media screen and (max-width: 700px){
     .country {
 		display: none !important;
@@ -51,6 +41,14 @@
 	.country2{
        display: none !important; 
     }
+    .ninja {
+	    margin-top: 100px!important;
+        margin-bottom: 100px!important;
+    }   
+
+     .ninja2 {
+	    margin-top: 0px!important;
+    }   
 
 }
 /* ++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -111,8 +109,8 @@
 	display: none;
 }
 #ninjawarrior {
-	/* margin-left: 10px; */
 	font-size: 20px;
+    text-align: justify;
 }
 .title {
 	text-decoration: underline #c02126;
