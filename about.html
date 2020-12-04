@@ -1,125 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="image/favicon.png" rel="icon" type="image/png" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="about.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>SG Ninja Warrior</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<link href="image/favicon.png" rel="icon" type="image/png">
-	<link href='style.css' rel='stylesheet' type='text/css'>
-	<link href='about.css' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.gstatic.com" rel="preconnect">
-	<link href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-	<title>SG Ninja Warrior</title>
-</head>
+  <body>
+    <!-- navigation bar at the top of the page -->
+    <!-- navigation bar at the top of the page, will be the same througout all pages -->
+    <nav>
+      <div class="header">
+        <div id="border">
+          <div id="logo">
+            <img alt="ninjasg" id="logopicture" src="image/Picture2.png" />
+            <h2 id="header">SG Ninja Warrior</h2>
+          </div>
+          <div id="nav-link">
+            <a class="nav-link" href="index.html" id="home">Home</a>
+            <a class="nav-link" href="about.html" id="about">About</a>
+            <a class="nav-link" href="location.html" id="booking">Booking</a>
+            <a class="nav-link" href="#social-media" id="contact">Contact</a>
+          </div>
+          <div class="drop-down">
+            <button class="drop-btn" onclick="menuButton()">Menu</button>
+            <div class="nav-link2">
+              <h2 id="navlinkheader2">SG Ninja Warrior</h2>
+              <a class="nav-link-2" href="index.html" id="home">Home</a>
+              <a class="nav-link-2" href="about.html" id="about">About</a>
+              <a class="nav-link-2" href="location.html" id="booking"
+                >Booking</a
+              >
+              <a class="nav-link-2" href="#social-media" id="contact"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="page2">
+      <div class="ninja">
+        <div class="ninjapictures">
+          <img alt="ninjawarrior" class="aboutimg" src="image/ninja.png" />
+          <div id="country">
+            <img
+              alt="americaninjawarrior"
+              class="country"
+              src="image/amn.png"
+            />
+            <img
+              alt="vietnamninjawarrior"
+              class="country"
+              src="image/vnw.png"
+            />
+            <img
+              alt="australianinjawarrior"
+              class="country"
+              src="image/australian.png"
+            />
+          </div>
+        </div>
+        <div id="words">
+          <h3 class="title">Ninja Warrior</h3>
+          <p id="ninjawarrior">
+            Ninja warrior originated from a Japanese sports variety show,
+            Sasuke. Every competition challenge the competitor against a four
+            stage obstacle course. Each stage, increasing in obstacle
+            difficulties. Only upon completing of one stage then is the
+            competitor allow to advance to the next.
+          </p>
+          <br />
+          <p id="ninjawarrior">
+            Ever since Sasuke aired on television in 2002, the sport has since
+            increased its popularity around the world with different countries
+            having their own version of the competition.
+          </p>
+        </div>
+      </div>
+      <div class="space"></div>
+      <div class="ninja2">
+        <div id="words2">
+          <h3 class="title">SG Ninja Warrior: Alvin Tan</h3>
+          <p id="ninjawarrior">
+            To allow more awareness of the sport in Singapore, Ninja Warrior
+            Alvin Tan has dedicated his time to promote the sport. Sharing
+            training tips to the public and interested parties. Having taken
+            part in numerous overseas competition, Alvin boast a large number of
+            experience under his belt.
+          </p>
+          <br />
+          <p id="ninjawarrior">
+            Dedicated to groom more ninja warrior and enthusiast, Alvin has set
+            up classes at numerous location around Singapore. Kids as young as
+            seven and working class adults have all signed up for his training.
+          </p>
+          <br />
+          <p id="ninjawarrior">
+            To be able to educate the sport beyond the experience but also the
+            fitness aspect, Alvin has sign up and took on sports related courses
+            to understand the methods of teaching and how to properly share his
+            training methods to those who are interested. A "forever learning,
+            forever improving" mentality is truly a spirit of a great warrior
+          </p>
+        </div>
+        <div class="ninjapictures">
+          <img
+            alt="playground"
+            class="aboutimg2"
+            src="image/alvinplayground.jpg"
+          />
+          <div class="country2">
+            <img alt="alvin6" class="country-2" src="image/alvin6.jpg" />
+            <img alt="alvin7" class="country-2" src="image/alvin7.jpg" />
+            <img alt="alvin8" class="country-2" src="image/alvin8.png" />
+          </div>
 
-<body>
-	<!-- navigation bar at the top of the page -->
-	<!-- navigation bar at the top of the page, will be the same througout all pages -->
-	<nav>
-		<div class='header'>
-			<div id='border'>
-				<div id='logo'>
-					<img alt='ninjasg' id='logopicture' src='image/Picture2.png'>
-					<h2 id='header'>SG Ninja Warrior</h2>
-				</div>
-				<div id='nav-link'>
-					<a class='nav-link' href='index.html' id='home'>Home</a> <a class='nav-link' href='about.html'
-						id='about'>About</a> <a class='nav-link' href='location.html' id='booking'>Booking</a> <a
-						class='nav-link' href='#social-media' id='contact'>Contact</a>
-				</div>
-				<div class='drop-down'>
-					<button class="drop-btn" onclick="menuButton()">Menu</button>
-					<div class='nav-link2'>
-						<h2 id='navlinkheader2'>SG Ninja Warrior</h2><a class='nav-link-2' href='index.html'
-							id='home'>Home</a> <a class='nav-link-2' href='about.html' id='about'>About</a> <a
-							class='nav-link-2' href='location.html' id='booking'>Booking</a> <a class='nav-link-2'
-							href='#social-media' id='contact'>Contact</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</nav>
-	<div id='page2'>
-		<div class='ninja'>
-			<div class='ninjapictures'>
-				<img alt='ninjawarrior' class='aboutimg' src='image/ninja.png'>
-				<div id='country'><img alt='americaninjawarrior' class='country' src='image/amn.png'> <img alt='vietnamninjawarrior' class='country' src='image/vnw.png'>
-					<img alt='australianinjawarrior' class='country' src='image/australian.png'></div>
-				</div>
-				<div id='words'>
-					<h3 class='title'>Ninja Warrior</h3>
-					<p id='ninjawarrior'>Ninja warrior originated from a Japanese sports variety show, Sasuke. Every
-						competition challenge the competitor against a four stage obstacle course. Each stage,
-						increasing
-						in obstacle difficulties. Only upon completing of one stage then is the competitor allow to
-						advance to
-						the next.</p><br>
-					<p id='ninjawarrior'>Ever since Sasuke aired on television in 2002, the sport has since increased
-						its popularity around the world with different countries having their own version of the
-						competition.</p>
-				</div>
-			</div>
-			<div class='space'></div>
-			<div class='ninja2'>
-				<div id='words2'>
-					<h3 class='title'>SG Ninja Warrior: Alvin Tan</h3>
-					<p id='ninjawarrior'>To allow more awareness of the sport in Singapore, Ninja Warrior Alvin Tan has
-						dedicated his time to promote the sport. Sharing training tips to the public and interested
-						parties. Having taken part in numerous overseas competition, Alvin boast a large number of
-						experience under his belt.</p><br>
-					<p id='ninjawarrior'>Dedicated to groom more ninja warrior and enthusiast, Alvin has set up classes
-						at numerous location around Singapore. Kids as young as seven and working class adults have all
-						signed up for his training.</p><br>
-					<p id='ninjawarrior'>To be able to educate the sport beyond the experience but also the fitness
-						aspect, Alvin has sign up and took on sports related courses to understand the methods of
-						teaching and how to properly share his training methods to those who are interested. A "forever
-						learning, forever improving" mentality is truly a spirit of a great warrior</p>
-				</div>
-				<div class='ninjapictures'>
-					<img alt='playground' class='aboutimg2' src='image/alvinplayground.jpg'>
-					<div class='country2'><img alt='alvin6' class='country-2' src='image/alvin6.jpg'> <img alt='alvin7' class='country-2' src='image/alvin7.jpg'>
-						<img alt='alvin8' class='country-2' src='image/alvin8.png'></div>
-						<div class='popup'>
-							<div><img alt='alvin6' class='popup1' src='image/alvin6.jpg'> <img alt='alvin7' class='popup1' src='image/alvin7.jpg'>
-								<img alt='alvin8' class='popup1' src='image/alvin8.png'></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class='space'></div>
-				<div>
-					<div id='certs'>
-						<div class="indiCerts"><img alt="Cert1" class="certs" src="image/cert1.png"></div>
-							<div class="indiCerts"><img alt="Cert2" class="certs" src="image/cert2.png"></div>
-								<div class="indiCerts"><img alt="Cert3" class="certs" src="image/cert3.png"></div>
-								</div>
-							</div><!-- bottom of the page with link to facebook,instagram,youtube. -->
-							<!-- contact section, will be same throughtout all pages -->
-							<div class='contact'>
-								<div id='contactborder'>
-									<div id='social-media'>
-										<a href='https://www.instagram.com/alvintan.ck/?hl=en'><img alt='instagram icon' id='instagram' src='image/instagram.png'></a>
-											<a href='https://www.facebook.com/'><img alt='facebook icon' id='facebook' src='image/facebook.png'></a>
-									</div>
-									<div>
-										<h2 id='contact-us'>Contact him now!</h2>
-										<p id='copyright'><br>
-				All materials on this site are solely for project purpose.<br>
-				Content will not be approve for use for other matters.</p>
-									</div>
-								</div>
-							</div>
-							<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js">
-							</script>
-							<script src='script.js'>
-							</script>
-							<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
-							</script>
-							<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
-							</script>
-							<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
-							</script>
-</body>
-
+          <div class="popup">
+            <div>
+              <img alt="alvin6" class="popup1" src="image/alvin6.jpg" />
+              <img alt="alvin7" class="popup1" src="image/alvin7.jpg" />
+              <img alt="alvin8" class="popup1" src="image/alvin8.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="space"></div>
+    <div>
+      <div id="certs">
+        <div class="indiCerts">
+          <img alt="Cert1" class="certs" src="image/cert1.png" />
+        </div>
+        <div class="indiCerts">
+          <img alt="Cert2" class="certs" src="image/cert2.png" />
+        </div>
+        <div class="indiCerts">
+          <img alt="Cert3" class="certs" src="image/cert3.png" />
+        </div>
+      </div>
+    </div>
+    <!-- bottom of the page with link to facebook,instagram,youtube. -->
+    <!-- contact section, will be same throughtout all pages -->
+    <div class="contact">
+      <div id="contactborder">
+        <div id="social-media">
+          <a href="https://www.instagram.com/alvintan.ck/?hl=en"
+            ><img alt="instagram icon" id="instagram" src="image/instagram.png"
+          /></a>
+          <a href="https://www.facebook.com/"
+            ><img alt="facebook icon" id="facebook" src="image/facebook.png"
+          /></a>
+        </div>
+        <div>
+          <h2 id="contact-us">Contact him now!</h2>
+          <p id="copyright">
+            <br />
+            All materials on this site are solely for project purpose.<br />
+            Content will not be approve for use for other matters.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
 </html>
