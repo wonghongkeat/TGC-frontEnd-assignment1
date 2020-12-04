@@ -47,9 +47,9 @@ As a user, this are the few things I hope to achieve when I visit the website:
 * If I am interested, how can I contact the coach?
 
 # Scope
-## functional
+## Functional
 Through the site, user will be able to have information on the sport and be able to book for training classes from the website. 
-## content
+## Content
 With the help of simple picture illustrations and simple write out. User will have a quick and brief idea of the sport and the coach of the site. 
 Upon coming to the website, the user may want to understand more about the sport and where are the venues to tryout.
 
@@ -150,7 +150,7 @@ The considerations for the colors comes from the logo of the sport and to create
 ## fonts
 Font chosen for the website is: [Stalinist One](https://fonts.google.com/specimen/Stalinist+One)
 
-Although it is an unconventional font to use nut after some consideration, I think the font dicpicts nicely the spirit of a Ninja and the advanturer spirit in the sport. 
+Although it is an unconventional font to use but after some consideration, I think the font dicpicts nicely the spirit of a Ninja and the advanturer spirit in the sport. 
 
 ## Image 
 All pictures image used are directly sourced from the coach himself with his approval for usage.
