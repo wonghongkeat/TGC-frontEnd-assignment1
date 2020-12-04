@@ -140,7 +140,7 @@ Footer will include the links to the coach social media pages.
 # Surface (Design Interface)
 
 ## Color
-After doing research and visiting severals similiar websites. The theme for the site has been decided:
+After doing research and visiting several similiar websites. The theme for the site has been decided:
 * Red 
 * Black 
 * white 
@@ -186,6 +186,7 @@ The following list of technologies were use to construct the website:
 
 ## Image 
 All photos from the website are contributed from the coach himself. 
+
 All pictures and logos from the website are searched and sourced from google image.
 
 ## Content
